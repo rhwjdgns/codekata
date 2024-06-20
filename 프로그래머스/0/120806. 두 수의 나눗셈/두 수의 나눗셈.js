@@ -1,5 +1,4 @@
 function solution(num1, num2) {
-    var answer = 0;
-    answer = (num1 / num2 * 1000)    
-    return Math.floor(answer)
+    answer = Math.floor(num1 / num2 * 1000)
+    return answer;
 }
